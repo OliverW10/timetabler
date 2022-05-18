@@ -1,0 +1,14 @@
+subjects:
+  1: Line 1
+  2: Line 2
+  3: Line 3
+  4: Line 4
+  5: Line 5
+  6: Line 6
+  7: Study
+  0: Break
+  8: Mentor
+
+# in the format: week (0:A, 1:B), day, period, replacment
+# recess and lunch count as periods
+exceptions:

@@ -1,0 +1,20 @@
+timetable thing written in python
+
+displays the time to next bell in the system tray and todays classes when you click on it
+can also be invoked from command line
+
+python3 timetable.py [flags]
+    --today     shows classes for today (default)
+ -t --tomorrow  shows classes for tomorrow
+ -s --timetable opens timetable pdf and bells png (not provided)
+    --top_bar   puts info into sys tray
+    --loop      runs in a loop every second
+
+./background.sh runs python3 --top_bar --loop in the background
+
+needs pyyaml, `pip install pyyaml`
+and this gnome extention
+https://extensions.gnome.org/extension/2826/generic-monitor/
+then replace the Line 1, Line 2 ect with your classes in `subjects.yaml`
+
+the code for this is shit btw so may break

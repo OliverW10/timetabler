@@ -164,7 +164,7 @@ parser.add_argument(
     action="store_const",
     const=True,
     default=False,
-    help="Classes for today",
+    help="Shows classes for today, default",
 )
 
 parser.add_argument(
@@ -174,7 +174,7 @@ parser.add_argument(
     action="store_const",
     const=True,
     default=False,
-    help="Classes for tomorrow",
+    help="Shows classes for tomorrow",
 )
 
 parser.add_argument(
@@ -193,7 +193,7 @@ parser.add_argument(
     action="store_const",
     const=True,
     default=False,
-    help="Updates the top bar text continually"
+    help="Updates the sys tray"
 )
 
 parser.add_argument(
@@ -202,7 +202,7 @@ parser.add_argument(
     action="store_const",
     const=True,
     default=False,
-    help="Loops all other given commands"
+    help="Runs itself in a loop every second"
 )
 
 def handleArgs(args, redraw=True):
